@@ -1,0 +1,18 @@
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install opencv-python glob2
+pip install --upgrade scikit-image 
+1- cd C:\Users\aliad\enhance_quality_images\Try3
+2- .\superes\Scripts\activate
+3- conda env create -f environment.yml
+4- conda activate srganenv_gpu
+5- conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+4- cd SRGAN_CustomDataset
+6- python main.py --mode test_only --LR_path test_data/cars --generator_path pretrained_models/SRGAN.pt
+-----------------------------------------------------------------------------------------------------------------
+1- Rename python file, and open colab GPU
+2- !pip install --upgrade scikit-image 
+3- %cd /content/drive/MyDrive/SRGAN
+4- !git clone https://github.com/AarohiSingla/SRGAN_CustomDataset.git
+5- %cd 
+6- %ls
+7- !python main.py --mode test_only --LR_path test_data --generator_path pretrained_models/SRGAN.pt

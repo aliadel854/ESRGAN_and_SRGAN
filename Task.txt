@@ -1,0 +1,1 @@
+The task is a super resolution using generative adversarial networks using pytorch. We need to enhance the quality of images by going from resolution of 64x64 to 128x128. This will be the backend of the project and we will also need this to be an API that uses AWS lambda and can be called from a mobile application or a website.
